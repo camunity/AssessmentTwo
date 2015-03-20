@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  AssessmentTwo
 //
 //  Created by Cameron Flowers on 3/20/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "City.h"
 
-@interface ViewController : UIViewController
-
-
+@interface WebViewController : UIViewController
+@property City *city;
 @end
-
